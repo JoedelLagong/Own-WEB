@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}   
+
+nav{
+    height: 100%;
+    background: #fdcc04 ;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0rem;
+}
+
+h1{
+    font-size: 27.5px;
+    margin: 8px;
+}
+
+.logo{
+    color: rgb(0, 0, 0);
+    font-size: 2.0rem;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+nav a{
+    width: fit-content;
+    text-decoration: none;
+    font-family: Camphor ;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: black;
+    padding: 0.6rem;
+}
+
+img{
+    float: right;
+    height: 200re;
+    width: 150px;
+    margin: 10px;
+}
+
+p{
+    font-size: 13px;
+    line-height: 2em;
+    margin: 8px;
+    text-align:inherit;
+    vertical-align: baseline;
+}
+
+h2{
+    margin: 8px;
+}
+
+section{
+    color:blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bottom{
+    background-color: #fdcc04;
+    font-size: 0.8rem;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.creator-credits{
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+
+/* @media (max-width: 375px){
+    img{
+        width: 250;
+        height: auto;
+    }
+} */
+
+@media (max-width: 360px) {
+    .logo{
+        width: fit-content;
+        font-size: 1.5rem;
+    }
+
+    nav{
+        height: 50px;
+    }
+
+    nav a{
+        width: fit-content;
+        font-size: 10px  ;
+    }
+
+    img{
+        align-items: center;
+        max-width: 150%;
+        height: auto;
+    }
+
+    input{
+        width: auto;
+    }
+
+    button{
+        width: auto;
+    }
+
+    p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        font-size: 0.7rem;
+    }
+    
+    .creator-credits{
+        height: 100%;
+        font-size: 0.4rem;
+    }
+    
+}
+
+
+
+
+
+/* .wrap{
+    background: url(Boracay-island.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+} */
+
+/* .nav-bar{
+    display: inline-flex;
+}
+
+.logo{
+    color: aqua;
+    font-style: italic;
+    font-size: 5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.menu{
+    font-size: 5vh;
+
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  } */
