@@ -1,3 +1,3 @@
 # Basic Wikipedia About Me
   
-Wikipedia 
+Wikipedia style
